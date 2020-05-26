@@ -22,7 +22,7 @@ Namespace DynamicDataTable
 				Dim member As XPCustomMemberInfo = CreateMember(column.Caption, column.DataType)
 				member.AddAttribute(New PersistentAttribute(column.ColumnName))
 				member.AddAttribute(New DisplayNameAttribute(column.Caption))
-				If table.PrimaryKey(0) Is column Then
+				If table.PrimaryKey(0) = column Then
 					member.AddAttribute(New KeyAttribute(column.AutoIncrement))
 				End If
 			Next column
