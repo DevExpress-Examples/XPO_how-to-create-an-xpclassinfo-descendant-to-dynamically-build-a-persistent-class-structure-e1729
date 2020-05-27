@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
@@ -16,11 +16,9 @@
     <Compile Include="..\DynamicDataTable\Form1.Designer.vb" Link="Form1.Designer.vb" />
     <Compile Include="..\DynamicDataTable\Program.vb" Link="Program.vb" />
   </ItemGroup>
-
   <ItemGroup>
     <EmbeddedResource Include="..\DynamicDataTable\Form1.resx" Link="Form1.resx" />
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.3-ctp" />
   </ItemGroup>

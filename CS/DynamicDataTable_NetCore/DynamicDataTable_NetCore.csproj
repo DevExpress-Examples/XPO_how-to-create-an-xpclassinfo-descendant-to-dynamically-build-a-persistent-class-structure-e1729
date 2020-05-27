@@ -1,11 +1,9 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
-
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="..\DynamicDataTable\DynamicDataTableClassInfo.cs" Link="DynamicDataTableClassInfo.cs" />
     <Compile Include="..\DynamicDataTable\Form1.cs" Link="Form1.cs" />
@@ -14,18 +12,14 @@
     <Compile Include="..\DynamicDataTable\Properties\Resources.Designer.cs" Link="Resources.Designer.cs" />
     <Compile Include="..\DynamicDataTable\Properties\Settings.Designer.cs" Link="Settings.Designer.cs" />
   </ItemGroup>
-
   <ItemGroup>
     <EmbeddedResource Include="..\DynamicDataTable\Form1.resx" Link="Form1.resx" />
     <EmbeddedResource Include="..\DynamicDataTable\Properties\Resources.resx" Link="Resources.resx" />
   </ItemGroup>
-
   <ItemGroup>
     <None Include="..\DynamicDataTable\Properties\Settings.settings" Link="Settings.settings" />
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.3-ctp" />
   </ItemGroup>
-
 </Project>
