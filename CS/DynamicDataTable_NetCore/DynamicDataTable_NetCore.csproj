@@ -20,6 +20,6 @@
     <None Include="..\DynamicDataTable\Properties\Settings.settings" Link="Settings.settings" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.9-ctp" />
+    <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.10-ctp" />
   </ItemGroup>
 </Project>

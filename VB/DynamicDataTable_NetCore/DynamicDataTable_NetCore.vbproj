@@ -20,6 +20,6 @@
     <EmbeddedResource Include="..\DynamicDataTable\Form1.resx" Link="Form1.resx" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.9-ctp" />
+    <PackageReference Include="DevExpress.WindowsDesktop.Win" Version="20.1.10-ctp" />
   </ItemGroup>
 </Project>
