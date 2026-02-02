@@ -1,5 +1,7 @@
-﻿Namespace DynamicDataTable
-    Partial Public Class Form1
+Namespace DynamicDataTable
+
+    Partial Class Form1
+
         ''' <summary>
         ''' Required designer variable.
         ''' </summary>
@@ -10,14 +12,14 @@
         ''' </summary>
         ''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-            If disposing AndAlso (components IsNot Nothing) Then
-                components.Dispose()
+            If disposing AndAlso (Me.components IsNot Nothing) Then
+                Me.components.Dispose()
             End If
+
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Windows Form Designer generated code"
-
+'#Region "Windows Form Designer generated code"
         ''' <summary>
         ''' Required method for Designer support - do not modify
         ''' the contents of this method with the code editor.
@@ -28,18 +30,18 @@
             Me.pnlTables = New DevExpress.XtraEditors.PanelControl()
             Me.grdTableBrowser = New DevExpress.XtraGrid.GridControl()
             Me.gridView1 = New DevExpress.XtraGrid.Views.Grid.GridView()
-            DirectCast(Me.cmbTables.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.pnlTables, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.cmbTables.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.pnlTables), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.pnlTables.SuspendLayout()
-            DirectCast(Me.grdTableBrowser, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.gridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.grdTableBrowser), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.gridView1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
             ' cmbTables
             ' 
             Me.cmbTables.Location = New System.Drawing.Point(136, 8)
             Me.cmbTables.Name = "cmbTables"
-            Me.cmbTables.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() { New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+            Me.cmbTables.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
             Me.cmbTables.Properties.Sorted = True
             Me.cmbTables.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
             Me.cmbTables.Size = New System.Drawing.Size(198, 20)
@@ -71,7 +73,7 @@
             Me.grdTableBrowser.Name = "grdTableBrowser"
             Me.grdTableBrowser.Size = New System.Drawing.Size(664, 445)
             Me.grdTableBrowser.TabIndex = 3
-            Me.grdTableBrowser.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() { Me.gridView1})
+            Me.grdTableBrowser.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.gridView1})
             ' 
             ' gridView1
             ' 
@@ -87,23 +89,24 @@
             Me.Controls.Add(Me.pnlTables)
             Me.Name = "Form1"
             Me.Text = "Northwind Browser"
-            DirectCast(Me.cmbTables.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.pnlTables, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.cmbTables.Properties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.pnlTables), System.ComponentModel.ISupportInitialize).EndInit()
             Me.pnlTables.ResumeLayout(False)
             Me.pnlTables.PerformLayout()
-            DirectCast(Me.grdTableBrowser, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.gridView1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.grdTableBrowser), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.gridView1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
-
         End Sub
 
-        #End Region
-
+'#End Region
         Private cmbTables As DevExpress.XtraEditors.ComboBoxEdit
+
         Private lblTables As DevExpress.XtraEditors.LabelControl
+
         Private pnlTables As DevExpress.XtraEditors.PanelControl
+
         Private grdTableBrowser As DevExpress.XtraGrid.GridControl
+
         Private gridView1 As DevExpress.XtraGrid.Views.Grid.GridView
     End Class
 End Namespace
-
